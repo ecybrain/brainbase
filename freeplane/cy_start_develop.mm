@@ -1,60 +1,11 @@
-<map version="freeplane 1.2.0">
+<map version="0.9.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Start Developing" ID="ID_1118979587" CREATED="1376358771894" MODIFIED="1376370609985" COLOR="#666600">
-<icon BUILTIN="idea"/>
 <font NAME="Liberation Sans" SIZE="12" BOLD="true"/>
-<hook NAME="MapStyle">
-    <properties show_icon_for_attributes="true" show_note_icons="true"/>
-
-<map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node">
-<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right">
-<stylenode LOCALIZED_TEXT="default" MAX_WIDTH="600" COLOR="#000000" STYLE="as_parent">
-<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="defaultstyle.details"/>
-<stylenode LOCALIZED_TEXT="defaultstyle.note"/>
-<stylenode LOCALIZED_TEXT="defaultstyle.floating">
-<edge STYLE="hide_edge"/>
-<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
-</stylenode>
-</stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right">
-<stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
-<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="styles.subtopic" COLOR="#cc3300" STYLE="fork">
-<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="styles.subsubtopic" COLOR="#669900">
-<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="styles.important">
-<icon BUILTIN="yes"/>
-</stylenode>
-</stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right">
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000">
-<font SIZE="18"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
-<font SIZE="16"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,2" COLOR="#00b439">
-<font SIZE="14"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,3" COLOR="#990000">
-<font SIZE="12"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,4" COLOR="#111111">
-<font SIZE="10"/>
-</stylenode>
-</stylenode>
-</stylenode>
-</map_styles>
-</hook>
-<cloud COLOR="#f0f0f0" SHAPE="ARC"/>
+<hook NAME="MapStyle" max_node_width="600"/>
+<cloud COLOR="#f0f0f0" WIDTH="0"/>
 <edge COLOR="#808080" WIDTH="2"/>
+<icon BUILTIN="idea"/>
 <node TEXT="Work Machines" POSITION="right" ID="ID_1724119542" CREATED="1376548223161" MODIFIED="1376548226237">
 <node TEXT="Company Machines" ID="ID_460364765" CREATED="1376358935911" MODIFIED="1376548132308">
 <node TEXT="Jimmy-Server" ID="ID_348784376" CREATED="1376548027884" MODIFIED="1376548033574"/>
@@ -170,7 +121,7 @@
 <node TEXT="https://wrc4.visualstudio.com/DefaultCollection/ComplianceGroupEdit" ID="ID_734756415" CREATED="1376531823768" MODIFIED="1376571862642" LINK="https://wrc4.visualstudio.com/DefaultCollection/ComplianceGroupEdit"/>
 </node>
 <node TEXT="skydrive" ID="ID_828789617" CREATED="1376545606617" MODIFIED="1376571959494" LINK="https://skydrive.live.com">
-<cloud COLOR="#f0f0f0" SHAPE="ARC"/>
+<cloud COLOR="#f0f0f0" WIDTH="0"/>
 <font BOLD="false"/>
 </node>
 <node TEXT="Gmail" ID="ID_649709663" CREATED="1376531894219" MODIFIED="1376531897841">
@@ -267,11 +218,11 @@
 <node TEXT="ERP, MRP, MIS, CRM" ID="ID_1877411491" CREATED="1376549141255" MODIFIED="1376549181387"/>
 </node>
 <node TEXT="Systems" ID="ID_1861127515" CREATED="1376360545634" MODIFIED="1376370615695" COLOR="#996600">
+<font NAME="Liberation Sans" SIZE="12" BOLD="true"/>
 <icon BUILTIN="password"/>
-<font NAME="Liberation Sans" SIZE="12" BOLD="true"/>
 <node TEXT="Windows" ID="ID_488436687" CREATED="1376360628642" MODIFIED="1376370586815" COLOR="#cc6600">
-<icon BUILTIN="list"/>
 <font NAME="Liberation Sans" SIZE="12" BOLD="true"/>
+<icon BUILTIN="list"/>
 <node TEXT="DotNet" ID="ID_483337566" CREATED="1376368085213" MODIFIED="1376370185582" COLOR="#18898b" STYLE="fork">
 <font NAME="Liberation Sans" SIZE="12" BOLD="true"/>
 <edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
@@ -642,6 +593,17 @@
 </node>
 <node TEXT="Quality Assurance" ID="ID_12632452" CREATED="1376361793170" MODIFIED="1376361801583"/>
 </node>
+<node TEXT="Files" ID="ID_425973816" CREATED="1381843836630" MODIFIED="1381843838865">
+<node TEXT="mind map" ID="ID_990731287" CREATED="1381843842535" MODIFIED="1381843848048"/>
+<node TEXT="architecture, domain/design model, pseudo code, protocols" ID="ID_953977173" CREATED="1381843861248" MODIFIED="1381843895462"/>
+<node TEXT="codelet &amp; code generator" ID="ID_1440649440" CREATED="1381843914901" MODIFIED="1381843921913"/>
+<node TEXT="lib, toolkit &amp; widget" ID="ID_1161652581" CREATED="1381843930562" MODIFIED="1381843950165"/>
+<node TEXT="resources: icons, bitmaps, html templates, javascript framework" ID="ID_1769083174" CREATED="1381843980084" MODIFIED="1381844040023"/>
+<node TEXT="CI configuration files, installation files, automation test files, UT framework, mocking framework" ID="ID_426636084" CREATED="1381844073815" MODIFIED="1381844130953"/>
+<node TEXT="database: sqlite, mango" ID="ID_1927416132" CREATED="1381844165096" MODIFIED="1381844191307"/>
+<node TEXT="data files: JSON, XML, CSV" ID="ID_221256129" CREATED="1381844211855" MODIFIED="1381844230261"/>
+<node TEXT="Website" ID="ID_1355569900" CREATED="1381844337622" MODIFIED="1381844349222"/>
+</node>
 </node>
 <node TEXT="Utils" POSITION="right" ID="ID_297319839" CREATED="1376359063329" MODIFIED="1376359070879">
 <node TEXT="sysinternals" ID="ID_846775855" CREATED="1376532275299" MODIFIED="1376532278658"/>
@@ -674,7 +636,7 @@
 <edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
 </node>
 <node TEXT="F#" ID="ID_1943368868" CREATED="1376359414814" MODIFIED="1376359418823"/>
-<node TEXT="ASP.NET" LOCALIZED_STYLE_REF="styles.subtopic" ID="ID_1180765475" CREATED="1376630057512" MODIFIED="1376630073882"/>
+<node TEXT="ASP.NET" ID="ID_1180765475" CREATED="1376630057512" MODIFIED="1376630073882" LOCALIZED_STYLE_REF="styles.subtopic"/>
 </node>
 <node TEXT="jvm" ID="ID_1664486597" CREATED="1376359137928" MODIFIED="1376359992242" COLOR="#18898b" STYLE="fork">
 <font NAME="Liberation Sans" SIZE="12" BOLD="true"/>
@@ -733,7 +695,7 @@
 <node TEXT="DMC" ID="ID_329646615" CREATED="1376365932884" MODIFIED="1376365937990"/>
 <node TEXT="SharpDevelop" ID="ID_860220512" CREATED="1376370729778" MODIFIED="1376370734254"/>
 <node TEXT="XCode" ID="ID_1511189516" CREATED="1376370768710" MODIFIED="1376370798151">
-<cloud COLOR="#f0f0f0" SHAPE="ARC"/>
+<cloud COLOR="#f0f0f0" WIDTH="0"/>
 </node>
 </node>
 </node>
