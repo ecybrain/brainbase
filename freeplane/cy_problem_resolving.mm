@@ -1,10 +1,58 @@
-<map version="0.9.0">
+<map version="freeplane 1.2.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Problem Resolving" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1377223955778">
-<hook NAME="MapStyle" max_node_width="600"/>
+<icon BUILTIN="wizard"/>
+<hook NAME="MapStyle" zoom="0.75">
+
+<map_styles>
+<stylenode LOCALIZED_TEXT="styles.root_node">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right">
+<stylenode LOCALIZED_TEXT="default" MAX_WIDTH="600" COLOR="#000000" STYLE="as_parent">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.note"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.floating">
+<edge STYLE="hide_edge"/>
+<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
+</stylenode>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right">
+<stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.subtopic" COLOR="#cc3300" STYLE="fork">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.subsubtopic" COLOR="#669900">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.important">
+<icon BUILTIN="yes"/>
+</stylenode>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000">
+<font SIZE="18"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
+<font SIZE="16"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,2" COLOR="#00b439">
+<font SIZE="14"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,3" COLOR="#990000">
+<font SIZE="12"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,4" COLOR="#111111">
+<font SIZE="10"/>
+</stylenode>
+</stylenode>
+</stylenode>
+</map_styles>
+</hook>
 <font BOLD="true" ITALIC="true"/>
 <hook NAME="AutomaticEdgeColor" COUNTER="4"/>
-<icon BUILTIN="wizard"/>
 <node TEXT="1. Get Known (Requirement)" POSITION="right" ID="ID_1735908776" CREATED="1377223360110" MODIFIED="1377223436696">
 <edge COLOR="#ff0000"/>
 <node TEXT="What we have known" ID="ID_1782547712" CREATED="1377223614190" MODIFIED="1377223731500">
@@ -27,7 +75,17 @@
 <node TEXT="stakeholders" ID="ID_991121694" CREATED="1377223801140" MODIFIED="1377224045456"/>
 </node>
 <node TEXT="managers" ID="ID_1417446657" CREATED="1377223807988" MODIFIED="1377224041217"/>
-<node TEXT="Team members" ID="ID_459838219" CREATED="1377223812219" MODIFIED="1381930489908"/>
+<node TEXT="Team members" ID="ID_459838219" CREATED="1377223812219" MODIFIED="1381930489908">
+<node TEXT="architect" ID="ID_1511867688" CREATED="1382448029965" MODIFIED="1382448036747"/>
+<node TEXT="team lead" ID="ID_680712271" CREATED="1382448037384" MODIFIED="1382448042474"/>
+<node TEXT="stategic tester" ID="ID_1252256664" CREATED="1382448079693" MODIFIED="1382448090873"/>
+<node TEXT="automation tester" ID="ID_1399426041" CREATED="1382448236478" MODIFIED="1382448242755"/>
+<node TEXT="front-end" ID="ID_473203367" CREATED="1382448118537" MODIFIED="1382448126527"/>
+<node TEXT="back-end" ID="ID_998312088" CREATED="1382448142183" MODIFIED="1382448145271"/>
+<node TEXT="user experience" ID="ID_568647408" CREATED="1382448225082" MODIFIED="1382448232998"/>
+<node TEXT="art designer" ID="ID_1436104055" CREATED="1382448355192" MODIFIED="1382448359240"/>
+<node TEXT="db designer" ID="ID_515531902" CREATED="1382448296068" MODIFIED="1382448299558"/>
+</node>
 </node>
 <node TEXT="computing resources" ID="ID_1984718407" CREATED="1377223756220" MODIFIED="1377224059585"/>
 <node TEXT="background knowledge" ID="ID_946903592" CREATED="1377223702649" MODIFIED="1377224066160"/>
